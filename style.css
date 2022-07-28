@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+}
+head{
+    margin: 0;
+}
+/* Genral class */
+.text-center{
+    text-align: center;
+}
+/*      Header Section     */
+#body-header{
+    height: 80vh;
+    background-image: url(images/bgh.jpg);
+    /* opacity: 0.5; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 2rem;
+}
+.hori-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+
+}
+.hori-list li{
+    display: inline-block;
+    margin: 0px 15px 8px 0px;
+    font-weight: 100;
+    font-size: 2rem;
+   
+}
+.hori-list li:hover{
+    transform: scale(1.2);
+   
+}
+.hori-list li a{
+ 
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 1px;
+} 
+.x li a:hover{
+    
+    color: rgb(189, 73, 73);
+    border-bottom: 1px solid rgb(189, 73, 73);
+}
+.hori-list li a:active{
+    color: green;
+}
+#Name-Social{
+    margin-top: 25vh;
+}
+#name{
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.soc-icon li a i{
+    color: rgb(160, 42, 27);
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 50%;
+
+}
+.soc-icon li a i:hover{
+    box-shadow:0 0 6px 4px red;
+}
