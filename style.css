@@ -70,3 +70,8 @@ head{
 .soc-icon li a i:hover{
     box-shadow:0 0 6px 4px red;
 }
+/* About */
+#about{
+    height: auto;
+    width: 100%;
+}
