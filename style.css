@@ -119,6 +119,7 @@ section{
     display: flex;
     flex-direction: column;
     height: 80vh;
+    align-items: center;
 }
 /* Set color using the child number  */
 section:nth-child(2n){
