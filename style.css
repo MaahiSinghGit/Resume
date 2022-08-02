@@ -165,8 +165,9 @@ section:nth-child(2n+1){
     height:inherit;
     width: 80%;
     border-radius:  10px 0 0 10px;
-    background-color: blue;
+   
 }
+
 .skill-name span{
     color: white;
     font-size: 1rem;
@@ -175,4 +176,19 @@ section:nth-child(2n+1){
 }
 .skill-name{
     height: inherit;
+}
+.mb-blue{
+    background-color: rgb(45, 45, 218);
+}
+.mb-green{
+    background-color: chartreuse;
+
+}
+.mb-orange{
+    background-color: rgb(238, 108, 61);
+
+}
+.mb-voilet{
+    background-color: rgb(249, 62, 249);
+
 }
