@@ -143,6 +143,9 @@ section:nth-child(2n+1){
     padding-top: 10px;
     margin-right: 1rem;
 }
+.mb75px{
+    margin-bottom: 75px;
+}
 .skill-display{
     width: 70%;
     /* height: 100px;
@@ -156,4 +159,10 @@ section:nth-child(2n+1){
     height: 2rem;
     border-radius: 10px;
     background-color: rgb(241, 234, 234);
+}
+.precentage{
+    height:inherit;
+    width: 80%;
+    border-radius:  10px 0 0 10px;
+    background-color: blue;
 }
