@@ -127,3 +127,19 @@ section:nth-child(2n){
 section:nth-child(2n+1){
     background-color: rgb(249, 239, 239);
 }
+
+
+/* SKILLS */
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 1rem;
+}
