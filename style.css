@@ -118,16 +118,17 @@ section{
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    /* height: 80vh; */
+    height: auto;
     align-items: center;
 }
 /* Set color using the child number  */
-/* section:nth-child(2n){
+ section:nth-child(2n){
     background-color: rgb(255, 255, 255);
 }
 section:nth-child(2n+1){
     background-color: rgb(249, 239, 239);
-} */
+} 
 
 /* SKILLS */
 .section-heading{
