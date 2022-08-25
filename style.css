@@ -215,18 +215,31 @@ section:nth-child(2n+1){
     top: 10%;
     left: 50%;
 }
-.timeline-box ::after{
+.timeline-box:nth-child(2n+1)::after{
     content: '';
     position: absolute;
     top: 30%;
-    right: -13%;
+    right: -12%;
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
     background-color: red;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    left: -10%;
+    top: 30%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    z-index: 1;
 }
 .timeline-travler{
     position: sticky;
     top: 15%;
     transform: rotate(90deg);
+    z-index: 2;
 }
