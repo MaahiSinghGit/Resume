@@ -190,5 +190,28 @@ section:nth-child(2n+1){
 }
 .mb-voilet{
     background-color: rgb(249, 62, 249);
-
+}
+.timeline{
+    position: relative;
+    width: 75%;
+    border: .5px solid black;
+}
+.timeline-box{
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+.timeline-div{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed black;
+    top: 10%;
+    left: 50%;
 }
